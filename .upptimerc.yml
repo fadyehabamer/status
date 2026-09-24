@@ -1,31 +1,169 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: fadyehabamer # GitHub username
+repo: status # Name of this repository
+user-agent: fadyehabamer
+
+# No site uses a secret; GH_PAT is passed to the workflows separately
+secrets: []
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  # Main sites
+  - name: fadyehabamer.com
+    url: https://fadyehabamer.com
+  - name: Quran (quran.fadyehabamer.com)
+    url: https://quran.fadyehabamer.com
+  - name: GitHub profile page
+    url: https://fadyehabamer.github.io/fadyehabamer/
+
+  # Apps (Vercel)
+  - name: Ayat AlQuran
+    url: https://ayat-alquran.vercel.app
+  - name: Quran PWA
+    url: https://quran-pwa.vercel.app
+  - name: FEA Planner
+    url: https://fea-planner.vercel.app
+  - name: Frontend Checklist
+    url: https://fea-frontend-checklist.vercel.app
+  - name: QR Generator
+    url: https://fea-qr.vercel.app
+  - name: Email Variations Generator
+    url: https://fea-email-variations-generator.vercel.app
+  - name: Location Distance Calculator
+    url: https://location-distance-calculator.vercel.app
+  - name: Loha Tahakomy
+    url: https://lohatahakomy.vercel.app
+  - name: TOV FE
+    url: https://tov-fe.vercel.app
+  - name: GetYourMeal
+    url: https://getyourmeal.vercel.app
+  - name: Anime Database
+    url: https://react-anime-databse.vercel.app
+  - name: Breaking Bad App
+    url: https://breakingbadapp.vercel.app
+  - name: Weather Now (JS)
+    url: https://getweathernow.vercel.app
+  - name: Weather App (React)
+    url: https://react-weatherapp-fea.vercel.app
+  - name: E-commerce Website
+    url: https://ecommerce-reactjs-website.vercel.app
+  - name: Sanity Portfolio
+    url: https://react-js-sanity-portfolio.vercel.app
+  - name: React Blog
+    url: https://fea-reactblog.vercel.app
+  - name: Social Dashboard
+    url: https://tailwind-react-social-dashboard.vercel.app
+  - name: GitHub Calendar
+    url: https://react-github-calendar.vercel.app
+  - name: Authentication App
+    url: https://react-authentication-app.vercel.app
+  - name: Context API Cart
+    url: https://react-context-api-cart.vercel.app
+  - name: Employee CRUD
+    url: https://crud-employee-react.vercel.app
+  - name: React Router CRUD
+    url: https://crud-react-router.vercel.app
+  - name: Reminder App
+    url: https://react-reminder-app-seven.vercel.app
+  - name: Random Quote Generator
+    url: https://randomquote-app.vercel.app
+  - name: Courses To Study
+    url: https://react-app-courses-to-study.vercel.app
+  - name: MERN CRUD App
+    url: https://mern-crud-app-fea.vercel.app
+  - name: ChatGPT Clone
+    url: https://chatgpt-clone-fea.vercel.app
+  - name: Angular Todo App
+    url: https://angular-todo-app-theta-seven.vercel.app
+
+  # Libraries, docs and collections (GitHub Pages)
+  - name: NYX docs
+    url: https://fadyehabamer.github.io/NYX/
+  - name: OTP Input Kit demo
+    url: https://fadyehabamer.github.io/otp-input-kit/demo/
+  - name: Framework Lab
+    url: https://fadyehabamer.github.io/framework-lab/
+  - name: React Lab
+    url: https://fadyehabamer.github.io/react-lab/
+  - name: References
+    url: https://fadyehabamer.github.io/references/
+  - name: Problem Solving
+    url: https://fadyehabamer.github.io/problem-solving/
+  - name: JS Logic
+    url: https://fadyehabamer.github.io/js-logic/
+  - name: JS Apps
+    url: https://fadyehabamer.github.io/js-apps/
+  - name: Games
+    url: https://fadyehabamer.github.io/games/
+  - name: Clones
+    url: https://fadyehabamer.github.io/clones/
+  - name: Landing Pages
+    url: https://fadyehabamer.github.io/landing-pages/
+  - name: Web Templates
+    url: https://fadyehabamer.github.io/web-templates/
+  - name: University
+    url: https://fadyehabamer.github.io/university/
+  - name: CSS Animations
+    url: https://fadyehabamer.github.io/css-animations/
+  - name: CSS Components
+    url: https://fadyehabamer.github.io/css-components/
+  - name: CSS Layouts
+    url: https://fadyehabamer.github.io/css-layouts/
+  - name: CSS Loaders
+    url: https://fadyehabamer.github.io/css-loaders/
+  - name: CSS Logos
+    url: https://fadyehabamer.github.io/css-logos/
+  - name: CSS Snippets
+    url: https://fadyehabamer.github.io/css-snippets/
+  - name: Custom Cursor
+    url: https://fadyehabamer.github.io/custom-cursor/
+  - name: Sharingan Loader
+    url: https://fadyehabamer.github.io/Sharingan-Loader/
+  - name: Ribbons Screensaver
+    url: https://fadyehabamer.github.io/Ribbons-Screensaver/
+  - name: NFT Marketplace Template
+    url: https://fadyehabamer.github.io/NFTMarketPlace-WebTemplate/
+  - name: Vercel Clone
+    url: https://fadyehabamer.github.io/Vercel-Clone/
+  - name: Eid Mubarak Landing Page
+    url: https://fadyehabamer.github.io/Eid-Mubark-Landing-page/
+  - name: JS CV Website
+    url: https://fadyehabamer.github.io/JS-CV-Website/
+  - name: RTL Simple CV
+    url: https://fadyehabamer.github.io/RTL-simple-CV/
+
+  # External APIs the apps depend on
+  - name: "API: TVmaze"
+    url: https://api.tvmaze.com/shows/1
+  - name: "API: Aladhan"
+    url: https://api.aladhan.com/v1/timingsByCity?city=Cairo&country=Egypt
+  - name: "API: DummyJSON"
+    url: https://dummyjson.com/products/1
+  - name: "API: TheMealDB"
+    url: https://www.themealdb.com/api/json/v1/1/search.php?s=chicken
+  - name: "API: Jikan"
+    url: https://api.jikan.moe/v4/anime/1
+
+assignees:
+  - fadyehabamer
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  # No custom domain: served from https://fadyehabamer.github.io/status/
+  baseUrl: /status
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: Fady Amer — Status
+  introTitle: "Live status of Fady Amer's sites, apps and the APIs they use."
+  introMessage: Checked every 5 minutes by GitHub Actions. Outages open an issue in this [repository](https://github.com/fadyehabamer/status) and close automatically on recovery.
   navbar:
     - title: Status
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Upptime's recommended default schedule (public repo, so Actions minutes are free)
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
