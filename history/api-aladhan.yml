@@ -1,7 +1,7 @@
 url: https://api.aladhan.com/v1/timingsByCity?city=Cairo&country=Egypt
 status: up
 code: 200
-responseTime: 166
-lastUpdated: 2026-11-26T04:52:52.795Z
+responseTime: 343
+lastUpdated: 2026-11-27T04:54:45.705Z
 startTime: 2026-09-26T14:36:50.184Z
 generator: Upptime <https://github.com/upptime/upptime>
